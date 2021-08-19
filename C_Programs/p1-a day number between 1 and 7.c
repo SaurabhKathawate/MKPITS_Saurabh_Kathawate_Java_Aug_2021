@@ -1,5 +1,5 @@
-//1- wap to accept a day number between 1 and 7 and then display the dayname using switch
-#include<sydio.h>
+//1-wap to accept a day number between 1 and 7 and then display the dayname using switch
+#include<stdio.h>
 int main() 
 {
 	int dayno;
