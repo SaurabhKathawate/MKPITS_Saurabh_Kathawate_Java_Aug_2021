@@ -10,7 +10,7 @@ int main()
 	{
 		for(col=1;col<=row;col++) 
 		{
-			printf("\t*",col);
+			printf("\t*");
 		}
 		printf("\n");
 		

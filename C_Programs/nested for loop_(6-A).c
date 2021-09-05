@@ -1,6 +1,6 @@
-//6-wap to print output like this    1	  2    3
-//		    				         1	  2     
-//				                     1
+//6(A)-wap to print output like this    1	  2    3
+//		    				            1	  2     
+//				                        1
 
 int main() 
 {
