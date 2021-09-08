@@ -1,0 +1,13 @@
+//3-Let's demonstrate another example to understand the enum more clearly.
+#include <stdio.h>  
+enum months{jan=1, feb, march, april, may, june, july, august, september, october, november, december};  
+int main()  
+{  
+    // printing the values of months  
+    for(int i=jan;i<=december;i++)  
+    {  
+        printf("%d, ",i);  
+    }  
+    return 0;  
+}  
+
