@@ -1,0 +1,24 @@
+div.sk{
+    background-color:Yellow;
+    height: 150px;
+    width: 150px;
+    float: left;
+    margin: 20px;
+    border: brown solid;
+    }
+    
+    div#first{
+    background-color:green;
+    }
+    
+    div#second{
+        background-color:pink;
+    }
+    
+    div#third{
+        background-color:blue;
+    }
+    
+    div#fourth{
+            background-color:violet;
+    }
