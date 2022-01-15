@@ -1,0 +1,9 @@
+.main{
+display:block;
+}
+div{
+height:200px;
+width:200px;
+background:#FF7A59;
+border:10px solid rgba(2,1,0,0.1)
+}

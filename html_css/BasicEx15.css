@@ -1,0 +1,7 @@
+.main{
+display:block;
+}
+#gradient{
+height:150px;
+background: linear-gradient(to right,rgba(255,122,89,1),rgba(255,122,89,0);
+}
