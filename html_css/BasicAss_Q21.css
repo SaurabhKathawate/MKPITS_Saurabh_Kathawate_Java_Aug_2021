@@ -1,0 +1,56 @@
+div.one{
+background-color:gray;
+height:125px;
+width:1328px;
+float:left;
+margin:0px;
+border:gray solid;
+}
+div#first{
+background-color:gray;
+}
+h1{
+color:white;
+}
+
+
+div.two{
+background-color:yellow;
+height:400px;
+width:300px;
+float:left;
+margin:0px
+border:yellow solid;
+}
+div#second{
+background-color:yellow;
+}
+
+
+div.three{
+background-color:pink;
+height:400px;
+width:1033px;
+float:left;
+margin:0px
+border:pink solid;
+}
+div#third{
+background-color:pink;
+}
+
+
+div.four{
+background-color:gray;
+height:75px;
+width:1328px;
+float:left;
+margin:0px;
+border:gray solid;
+}
+div#fourth{
+background-color:gray;
+}
+h3{
+color:white;
+}

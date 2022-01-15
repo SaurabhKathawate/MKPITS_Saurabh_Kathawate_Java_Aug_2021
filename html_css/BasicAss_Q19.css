@@ -1,0 +1,100 @@
+div.one{
+    background-color:White ;
+    height: 50px;
+    width: 1350px;
+    float:left;
+    margin: 0px;
+    }
+    div#first{
+    background-color:Black;
+    }
+ ol{
+  	margin:0px;
+  	padding:0px;
+  	height:46px;
+  	line-height:46px;
+  	background-color:Black;
+  	float: right;
+  	font-family:'Courier New', Courier, monopspace;
+  	font-size:15px;
+  }
+  li{
+  	float: right;
+  	padding:0px 28px;
+  }
+  a{
+  	color:blue;
+  	display:block;
+  	text-decoration: none;
+  }
+  a:hover{
+  	background-color:turquoise;
+  }
+  .Fork a{
+  	background-color:turquoise;
+               }
+ 
+  <!--  -->
+    
+ div.two{
+     background-color:White ;
+     height: 100px;
+     width: 1350px;
+     float: left;
+     margin: 0px;
+    }
+    div#second{
+        background-color:red;
+    }
+    
+    <!--  -->
+    
+ div.three{
+      background-color:White;
+      height: 40px;
+      width: 1350px;
+      float:left;
+      margin: 0px;
+    }
+    div#third{
+        background-color:yellow ;
+    }
+ ul{
+ 	margin:0px;
+ 	padding:0px;
+ 	height:37px;
+ 	line-height:37px;
+ 	background-color:yellow;
+ 	float:left;
+ 	font-family:'Courier New', Courier, monopspace;
+ 	font-size:15px;
+ }
+ li{
+ 	float:left;
+ 	padding:0px 28px;
+ }
+ a{
+ 	color:blue;
+ 	display:block;
+ 	text-decoration: none;
+ }
+ a:hover{
+ 	background-color:turquoise;
+ }
+ .home a{
+ 	background-color:turquoise;
+ }
+  
+  <!--  -->
+    
+div.four{
+          background-color:White;
+          height: 424px;
+          width: 1350px;
+          float: left;
+          margin: 0px;
+        }
+    
+    div#fourth{
+        background-color:blue;
+    } 

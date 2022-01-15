@@ -1,0 +1,37 @@
+div.one{
+    height: 80px;
+    width: 1320px;
+    float: left;
+    margin: 4px;
+    border: white solid;
+    }
+    h2{
+    color:white
+    }
+    div#first{
+    	color:white
+    }
+    
+    
+ div.two{
+     height: 455px;
+     width: 320px;
+     float: left;
+     margin: 4px;
+     border: white solid;
+     }
+     div#second{
+     color:white
+    }
+    
+    
+ div.three{
+      height: 455px;
+      width: 985px;
+      float: left;
+      margin: 4px;
+      border: white solid;
+      }
+      div#third{
+      color:white
+    }
