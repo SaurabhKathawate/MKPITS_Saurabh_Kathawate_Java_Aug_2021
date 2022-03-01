@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean id="eob" class="com.example.spring_p6.emp_p6">       <!--object name should be match with bean name-->
+        <constructor-arg index="0" value="05" />
+        <constructor-arg index="1" value="Saurabh" />
+    </bean>
+
+    <bean id="aob" autowire="byName" class="com.example.spring_p6.Account">
+<!--        <property name="eob" ref="emp_p6"></property>-->
+    </bean>
+</beans>
