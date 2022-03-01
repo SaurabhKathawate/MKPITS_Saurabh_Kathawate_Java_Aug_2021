@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean id="emp_p12" class="com.example.spring_p12.emp_p12">
+        <constructor-arg index="0" value="1" />
+        <constructor-arg index="1" value="Saurabh" />
+    </bean>
+
+    <bean id="rob" class="com.example.spring_p12.Report">
+        <property name="listemp">
+            <props>
+                <prop key="username">SK</prop>
+                <prop key="password">RR</prop>
+            </props>
+        </property>
+    </bean>
+</beans>

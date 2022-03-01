@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean id="emp_p11" class="com.example.spring_p11.emp_p11">
+        <constructor-arg index="0" value="1" />
+        <constructor-arg index="1" value="Saurabh" />
+    </bean>
+
+    <bean id="rob" class="com.example.spring_p11.Report">
+        <property name="listemp">
+            <map>
+                <entry key="1">
+                    <bean class="com.example.spring_p11.emp_p11">
+                        <constructor-arg index="0" value="2"/>
+                        <constructor-arg index="1" value="Saurabh"/>
+                    </bean>
+                </entry>
+
+                <entry key="2">
+                    <bean class="com.example.spring_p11.emp_p11">
+                        <constructor-arg index="0" value="3"/>
+                        <constructor-arg index="1" value="Kathawate"/>
+                    </bean>
+                </entry>
+
+            </map>
+        </property>
+    </bean>
+</beans>
