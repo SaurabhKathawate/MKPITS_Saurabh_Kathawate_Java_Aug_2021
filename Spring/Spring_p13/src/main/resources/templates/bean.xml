@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+        <bean id="base" class="com.example.spring_p13.emp_p13" abstract="false">      <!--if true then it doesnt inherit-->
+                <property name="id" value="05"></property>
+        </bean>
+        <bean id="ob2" parent="base">
+                <property name="city" value="Nagpur"></property>
+                <property name="name" value="Saurabh"></property>
+        </bean>
+</beans>
