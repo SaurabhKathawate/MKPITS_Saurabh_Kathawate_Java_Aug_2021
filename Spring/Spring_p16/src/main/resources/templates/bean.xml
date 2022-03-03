@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean id="eob1" class="com.example.spring_p16.emp_p16">
+        <qualifier value="mybean"></qualifier>
+        <property name="id" value="05"></property>
+        <property name="name" value="Saurabh"></property>
+        <property name="city" value="Nagpur"></property>
+    </bean>
+<!--    <bean id="eob1234" class="com.example.spring_p16.emp_p16">-->
+<!--        <property name="id" value="05"></property>-->
+<!--        <property name="name" value="Saurabh"></property>-->
+<!--        <property name="city" value="Nagpur"></property>-->
+<!--    </bean>-->
+    <bean id="acc" class="com.example.spring_p16.Account">
+<!--        <property name="eob" ref="emp"></property>-->
+    </bean>
+    <bean class="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor">
+    </bean>
+</beans>
